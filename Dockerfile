@@ -4,7 +4,7 @@ FROM nginx:stable
 RUN mkdir -p /usr/src/Devcation-23
 
 # copy files
-COPY . /usr/src/todoapp
+COPY . /usr/src/Devcation-23
 COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 
 RUN mkdir -p /var/www/html
